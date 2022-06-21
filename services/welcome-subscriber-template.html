@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email</title>
+  <style>
+    * {
+      margin: 0px auto;
+      padding: 0px;
+      font-family: "Poppins", sans-serif;
+      clear: both;
+      font-size: 14px;
+      letter-spacing: 0.9px;
+    }
+
+    body {
+      background-color: #334968;
+      height: 100%;
+    }
+
+    .wrapper {
+      margin: 0px auto;
+      padding: 25px;
+      text-align: center;
+    }
+
+    .navbar-brand p {
+      font-size: 42px;
+      color: white;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      max-width: 800px;
+      max-height: 825px;
+      background-color: rgba(249, 249, 249, 1);
+      padding: 25px;
+      margin: 0px auto;
+      text-align: center;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+      border-radius: 10px;
+    }
+
+    .card-brand .brand-icon {
+      border: 3px solid #334968;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      line-height: 58px;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+      margin-bottom: 15px;
+    }
+
+    .card-brand .brand-icon h3 {
+      font-size: 26px;
+      font-weight: 600;
+      color: #334968;
+    }
+
+    .card-brand p {
+      font-size: 18px;
+      font-weight: 400;
+      color: #000;
+      position: relative;
+      margin-bottom: 40px;
+    }
+
+    .card-brand p::before {
+      content: "";
+      width: 250px;
+      height: 2px;
+      background-color: #334968;
+      position: absolute;
+      bottom: -15px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+    }
+
+    .card-body p {
+      font-size: 14px;
+      color: #363636;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    .user-location {
+      margin-bottom: 20px;
+    }
+
+    .user-location p {
+      margin-bottom: 2px;
+    }
+
+    .card-footer {
+      padding-top: 20px;
+    }
+
+    .card-footer .nav-link {
+      text-decoration: none;
+      padding: 15px 20px;
+      background-color: #334968;
+      border-radius: 10px;
+      color: white;
+      font-size: 14px;
+    }
+
+    @media only screen and (max-width: 374px) {
+      .card-footer .nav-link {
+        display: block;
+        padding: 5px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="wrapper">
+    <div class="navbar-brand">
+      <p>Quals</p>
+    </div>
+    <div class="card">
+      <div class="card-brand">
+        <div class="brand-icon">
+          <h3>Q</h3>
+        </div>
+        <p>Welcome to Quals.com</p>
+      </div>
+      <div class="card-body">
+        <p>We’re so happy you’re here! The concept is simple: Quals helps you get professional advisors,
+          lawyers & financial advocates to build your firm.</p>
+        <!-- <div class="user-location">
+          <p><b>Location: United States</b></p>
+          <p><b>IP Address: 71.249.98.158</b></p>
+          <p><b>Browser: Firefox (Window)</b></p>
+        </div> -->
+        <p>We are glad that you are reading this email. We will be happy to help you grow your business.</p>
+
+        <p>
+          <b>Our newsletter will be provide you all the lastest & upcoming events regarding any comapany</b>
+        </p>
+      </div>
+      <div class="card-footer">
+        <a href="#" class="nav-link">Thank you for Subscribing Quals.com</a>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

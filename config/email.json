@@ -1,0 +1,16 @@
+{
+  "config": {
+    "type": "SMTP",
+    "host": "smtp.gmail.com",
+    "secure": false,
+    "port": 465,
+    "service": "gmail",
+    "auth": {
+      "user": "demo@demo.com",
+      "pass": "demo@demo"
+    }
+  },
+  "other": {
+    "mail_from": "Quals.com"
+  }
+}
